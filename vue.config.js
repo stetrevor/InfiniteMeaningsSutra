@@ -1,11 +1,8 @@
 const { GenerateSW } = require('workbox-webpack-plugin')
 
 module.exports = {
-<<<<<<< HEAD
-  publicPath: '',
-=======
-  publicPath: dev ? '/InfiniteMeaningsSutra/' : '',
->>>>>>> 63d456d... Init commit: Infinite Meanings Sutra
+  publicPath:
+    process.env.NODE_ENV === 'develop' ? '/InfiniteMeaningsSutra/' : '',
 
   chainWebpack: config => {
     config.module

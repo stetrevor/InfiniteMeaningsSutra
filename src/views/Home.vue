@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="home__title">妙法莲华经</h1>
-    <h2 class="home__author">姚秦 · 三藏法师 · 鸠摩罗什 译</h2>
+    <h1 class="home__title">无量义经</h1>
 
     <TableOfContents />
 

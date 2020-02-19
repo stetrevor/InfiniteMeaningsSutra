@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "Ksitigarbhasutra",
-=======
   "name": "infinite-meanings-sutra",
->>>>>>> 63d456d... Init commit: Infinite Meanings Sutra
   "version": "0.1.0",
   "private": true,
   "scripts": {
