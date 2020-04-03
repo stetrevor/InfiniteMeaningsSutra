@@ -5,7 +5,7 @@
         >上一章</router-link
       >
       <router-link to="/">目录</router-link>
-      <router-link :to="`/chapter/${chapterNum + 1}`" v-if="chapterNum < 28"
+      <router-link :to="`/chapter/${chapterNum + 1}`" v-if="chapterNum < 3"
         >下一章</router-link
       >
     </div>
