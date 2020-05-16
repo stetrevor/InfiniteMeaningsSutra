@@ -11,9 +11,10 @@
 </template>
 
 <script>
+import { titles } from '@/data.json'
+
 export default {
   data() {
-    const titles = ['德行品第一', '说法品第二', '十功德品第三']
     return {
       chapters: titles.map((t, i) => ({
         route: `/chapter/${i + 1}`,
